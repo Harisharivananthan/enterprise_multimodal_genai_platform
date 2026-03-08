@@ -3,3 +3,14 @@ uvicorn
 pydantic
 pyyaml
 pytest
+langchain
+langchain-openai
+sentence-transformers
+faiss-cpu
+pypdf
+celery
+redis
+prometheus-client
+Pillow
+opencv-python
+openai-whisper

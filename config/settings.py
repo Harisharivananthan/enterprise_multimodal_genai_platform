@@ -5,6 +5,8 @@ class settings(BaseSettings):
     APP_VERSION: str = "0.1.0"
     ENVIRONMENT: str = "development"
     DEBUG: bool = "True"
+    REDIS_URL: str = "redis://localhost:6379/0"
+    OPENAI_API_KEY: str
 
     class config:
         env_file = ".env"
